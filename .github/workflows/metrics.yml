@@ -19,9 +19,9 @@ jobs:
           filename: general.svg
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
-          base: header
+          base: ""
           base_indepth: yes
-          config_order: base.header, isocalendar, languages
+          config_order: isocalendar, languages
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, scala, ejs
