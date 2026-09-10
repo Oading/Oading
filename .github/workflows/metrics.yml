@@ -27,5 +27,5 @@ jobs:
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, scala, ejs
           plugin_languages_details: lines, bytes-size, percentage
           plugin_languages_sections: most-used
-          plugin_languages_indepth: yes
+          #plugin_languages_indepth: yes
           config_timezone: Asia/Shanghai
