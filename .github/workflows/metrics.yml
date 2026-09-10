@@ -22,11 +22,15 @@ jobs:
           committer_gist: ${{ secrets.GIST }}
           base: header
           base_indepth: yes
-          
+
+          # remove avatar&name
           extras_css: |
-            .avatar {
+            h1.field .avatar {
               display: none;
               }
+            h1.field span {
+              display: none;
+            }
               
           config_order: base.header, isocalendar, languages
           plugin_isocalendar: yes
